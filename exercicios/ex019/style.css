@@ -1,0 +1,32 @@
+body {
+    background-color: #613D3E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #418B54;
+    color: #1DE051;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+
+h2{
+    color: #418B54;
+    font-size: 1.8em;
+
+}
+
+#seletor {
+    color:#A33C40;
+    font-size: 2.3em;
+    background-color: black
+}
+
+.titulos {
+    color: #171b18;
+    text-align: justify;
+    font-size: 1.2em;
+
+
+}

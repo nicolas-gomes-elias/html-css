@@ -1,0 +1,21 @@
+
+        body{
+            background-color: lightgreen;
+            font-family: 'Times New Roman', Times, serif; color: rgb(56, 117, 107);
+            font-size: 25px;
+        }
+        h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: cornflowerblue;
+            text-align: center;
+        }
+
+        h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(1, 46, 35);
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+    

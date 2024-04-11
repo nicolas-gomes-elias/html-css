@@ -1,0 +1,26 @@
+
+body {
+ background-color: #d090e6;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 1.3em;
+
+}
+
+h1 {
+    background-color: #91e6c3 ;
+    text-align: center;
+    
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: #e6cb91 ;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+div:hover {
+    background-color: #446658 ;
+}

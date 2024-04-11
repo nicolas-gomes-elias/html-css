@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elementos em links</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+   
+
+    div > ul {
+        display: none;
+
+    }
+
+    div:hover > ul {
+        display: block
+
+    }
+
+    a {
+        color: greenyellow ;
+       text-decoration: none;
+    }
+
+    a:hover {
+        color: green;
+    }
+
+    .importante {
+        color: greenyellow;
+    }
+
+    .importante::after {
+        content: "!";
+    }
+    .importante::before {
+        content: "!";
+    }
+
+
+    </style>
+</head>
+<body>
+    <h1>links</h1>
+
+    <div> contate-me
+        <ul>
+            <li class="importante"><a target="_blank" href="https://www.youtube.com/channel/UCv5y9ne2DVuB47Ul5G-du4A">youtube</a></li>
+        
+            <li class="importante"><a target="_blank" href="https://github.com/">github</a></li>
+        
+            <li class="importante"><a target="_blank" href="https://www.instagram.com/gms.ogg/">instagram</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
