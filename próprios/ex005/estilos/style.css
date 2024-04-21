@@ -22,6 +22,16 @@ body {
 
 main {
     background-color: var(--color02);
+    
+}
+
+main > div > picture {
+   
+    box-align: 100px;
+}
+
+main > div > p {
+    margin-bottom: 100px;
 }
 
 a {
