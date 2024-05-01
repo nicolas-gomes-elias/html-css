@@ -22,17 +22,33 @@ body {
 
 main {
     background-color: var(--color02);
+    max-height: 500;
     
 }
 
-main > div > picture {
-   
-    box-align: 100px;
+#formulario {
+    background-color: #28180F;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+main > div > p {
+  padding-top: 30px;
+}
+
+.linha {
+    display: inline-block;
 }
 
 main > div > p {
     margin-bottom: 100px;
 }
+
 
 a {
     text-decoration: none;
